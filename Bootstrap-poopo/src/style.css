@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.250), rgba(0, 0, 0, 0.5)), url(./images/loginbackground.png);
+    height: 100vh;
+}
+
+.login-top{
+    width: 100vw;
+    height: 60px;
+    background-color: rgba(0,0,0,0);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.login-top img{
+    width: 200px;
+}
+.login-box{
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 430px;
+    height: 630px;
+    border-radius: 5px;
+    padding: 50px;
+}
+.small-text{
+    font-size: 16px;
+    color: white;
+
+}
+.title-text{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 28px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+.form-control{
+    box-shadow: none !important;
+}
+.bg-gray{
+    background-color: #333;
+}
+
+.big-red-btn{
+ background-color: red;
+ border-color: red;
+ color: white;
+ font-size: 16px;
+ font-weight: bold;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin: 24px 0 12px;
+ padding: 16px;
+}
+.footer{
+    margin-top: -150px;
+    height: 150px;
+    clear:both;
+    padding-top: 20px;
+    background-color: #333 !important;
+    color: #333;
+    background: #333;
+}
+
+ul{
+    list-style: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.616);
+    font-weight: 100;
+}
+.copyright{
+    font-size: 25px;
+    font-weight: 250;
+    color: red;
+    margin-left: 25px;
+}
