@@ -2,6 +2,8 @@ body{
     background-color: #141414;
     overflow-x: hidden;
     position: relative;
+    display:flex;
+    flex-direction:column
 }
 
 .netflix-padding-left{
@@ -190,10 +192,12 @@ i{
 }
 
 .footer{
-    margin-top: -150px;
-    height: 150px;
+    position: absolute;
+    margin-top: 2px;
+    height: 175px;
     clear:both;
     padding-top: 20px;
+    bottom: 0;
 }
 
 ul{
